@@ -1,22 +1,20 @@
-.App {
-  text-align: center;
-}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+};
 
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.chat-button {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  background: #5E0565;
+  height: 50px;
+  font-size: 16px;
   color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  box-shadow: 1px 1px 4px 1px grey;
+  cursor: pointer;
+};
